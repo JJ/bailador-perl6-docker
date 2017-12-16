@@ -1,0 +1,10 @@
+services:
+  - docker
+  
+install:
+  - docker --version
+  - docker build -t testlatest .
+  - docker run -d --name testlatest testlatest
+  
+script:
+  - docker ps | grep -q testlatest
