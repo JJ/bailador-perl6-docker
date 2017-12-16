@@ -10,7 +10,7 @@
     "docker",
     "container"
   ],
-    "depends" : [ "Bailador" ],
+    "depends" : [ "Bailador", "JSON::Tiny" ],
     "license": "https://opensource.org/licenses/Artistic-2.0",
     "production": false,
     "version": "0.0.1",
