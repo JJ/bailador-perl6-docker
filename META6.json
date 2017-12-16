@@ -1,0 +1,21 @@
+{
+  "name": "bailador-perl6-docker",
+  "source-url": "git@github.com:JJ/bailador-perl6-docker.git",
+  "perl": "v6.*",
+  "scripts": {
+    "test": "zef test ."
+  },
+  "tags": [
+    "webservices",
+    "docker",
+    "container"
+  ],
+    "depends" : [ "Bailador" ],
+    "license": "https://opensource.org/licenses/Artistic-2.0",
+    "production": false,
+    "version": "0.0.1",
+    "authors": [
+	"jmerelo"
+    ],
+    "description": "A docker container for Bailador"
+}
